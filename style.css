@@ -13,9 +13,34 @@ body {
 	border-radius: 5px;
 }
 
-.button:hover {
+.button:hover,
+.openBtn:hover {
 	background: #333;
 	cursor: pointer;
+}
+
+.viewBtn {
+	background: #eef0f1;
+	padding: 1em 1em;
+	margin: 1em 0.5em;
+	color: #4d5760;
+	border: 1px solid #4d5760;
+	border-radius: 5px;
+}
+
+.openBtn {
+	background: #3b49df;
+	padding: 1em 1em;
+	margin: 1em 0.5em;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.viewBtn:hover {
+	background: #3b49df;
+	cursor: pointer;
+	color: white;
 }
 
 .modal {
@@ -58,9 +83,12 @@ body {
 	text-align: center;
 }
 
+hr {
+	margin: 0;
+}
+
 .modal-footer {
-	background: #e5e5e5;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 	border-radius: 0 0 5px 5px;
 }
