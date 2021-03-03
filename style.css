@@ -41,6 +41,7 @@ body {
 	background: #3b49df;
 	cursor: pointer;
 	color: white;
+	border: 1px solid #3b49df;
 }
 
 .modal {
@@ -70,6 +71,10 @@ body {
 	margin: 0;
 }
 
+.modal-header h2 {
+	font-size: 1.25em;
+}
+
 .modal-header {
 	background: #3b49df;
 	padding: 15px;
@@ -94,14 +99,19 @@ hr {
 }
 
 .closeBtn {
+	width: 32px;
+	line-height: 32px;
 	color: white;
 	float: right;
 	font-size: 30px;
+	text-align: center;
 }
 
 .closeBtn:hover,
 .closeBtn:focus {
-	color: black;
+	background-color: #b4b9ee;
+	border-radius: 50%;
+	color: #08090a;
 	text-decoration: none;
 	cursor: pointer;
 }
