@@ -27,5 +27,9 @@ Project is created with:
 ### Status
 Project is: in progress
 
+### License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ### Contact
 Created by [@Max88-git](mlockwood@hotmail.co.uk/) - feel free to contact me!
