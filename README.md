@@ -7,7 +7,7 @@ I wanted to create a custom modal window to welcome new users to a company teams
 * A modal window is commonly used when the author wants to retain the user's focus on the information. It forces the user to interact with it before they can go back to using the application.
 * A Click here button to open the modal
 * Simple header, icon, body text and footer links
-* A close (x) button to close the modal window and also enable the user to click outside the modal to close.
+* The ability for the user to close the modal by clicking the (x) or by clicking anywhere outside of the modal box.
 
 ### Technologies
 
