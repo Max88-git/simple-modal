@@ -14,9 +14,11 @@ body {
 }
 
 .button:hover,
+.button:focus,
 .openBtn:hover {
 	background: #333;
 	cursor: pointer;
+	outline: 0;
 }
 
 .viewBtn {
@@ -52,13 +54,13 @@ body {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	overflow: auto;
+	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
 	background-color: #f4f4f4;
-	margin: 20% auto;
+	margin: 10% auto;
 	width: 40%;
 	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
 	border-radius: 5px;
